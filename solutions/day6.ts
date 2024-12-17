@@ -1,5 +1,4 @@
-import fs, { Dir } from "fs";
-import { addListener } from "process";
+import fs from "fs";
 
 const readData = () => {
   return fs.readFileSync("./data/day6.txt").toString().trim();
