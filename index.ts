@@ -8,6 +8,7 @@ import { part1 as day7part1, part2 as day7part2 } from "./solutions/day7";
 import { part1 as day8part1, part2 as day8part2 } from "./solutions/day8";
 import { part1 as day9part1, part2 as day9part2 } from "./solutions/day9";
 import { part1 as day10part1, part2 as day10part2 } from "./solutions/day10";
+import { part1 as day11part1, part2 as day11part2 } from "./solutions/day11";
 
 interface Solution {
   part1: () => void;
@@ -54,6 +55,10 @@ const solutions: Solution[] = [
   {
     part1: day10part1,
     part2: day10part2,
+  },
+  {
+    part1: day11part1,
+    part2: day11part2,
   },
 ];
 
